@@ -1,0 +1,7 @@
+echo "# ejemplo" >> README.md 
+git init 
+git agregar README.md 
+git commit -m "primer compromiso" 
+git branch -M main 
+git remote agregar origen https://github.com/mecn420/ejemplo.git
+ git push - u origen principal
